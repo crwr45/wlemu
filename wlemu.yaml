@@ -1,0 +1,11 @@
+replacements:
+  - name: kube-rbac-proxy
+    replacement: stressng
+    config:
+      stressor: all
+      instances: 2
+  - name: linuxptp-daemon-container
+    replacement: stressng
+    config:
+      stressor: matrix
+      instances: 1
