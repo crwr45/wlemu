@@ -60,6 +60,9 @@ linters-settings:  # https://golangci-lint.run/
       - name: exported
         arguments:
           - "disableStutteringCheck"
+  varnamelen:
+    ignore-names:
+      - id
 linters:
   enable-all: true
   disable:
