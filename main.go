@@ -8,8 +8,6 @@ func main() {
 
 // TODO:
 /*
-Output to k8s-compatible YAML
-	prepend any extra resources the updater creates to the file
 Finalise Naming
 	some package names might read better verb-ised?
 Unit Tests

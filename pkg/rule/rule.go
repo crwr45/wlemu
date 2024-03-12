@@ -32,7 +32,6 @@ func LoadRulesFromFile(fname string) {
 	}
 
 	for _, rule := range rules {
-		log.Print(rule.ContainerName)
 		err := registerRule(rule)
 		if err != nil {
 			log.Error().Err(err).Msg("failed to register Rule")
